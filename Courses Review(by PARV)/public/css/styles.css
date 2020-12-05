@@ -1,0 +1,12 @@
+.port-item {
+    min-width: 0;
+  }
+  
+  @media screen and (max-width:1350px) {
+    #bars {
+      flex-direction: column !important;
+    }
+    .port-item {
+      width: 100%;
+    }
+  }
