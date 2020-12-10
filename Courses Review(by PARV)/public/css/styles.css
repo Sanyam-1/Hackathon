@@ -1,8 +1,12 @@
+body{
+  overflow-x: hidden;
+}
+
 .port-item {
     min-width: 0;
   }
   
-  @media screen and (max-width:1350px) {
+  @media only screen and (max-width:1150px) {
     #bars {
       flex-direction: column !important;
     }
@@ -10,3 +14,4 @@
       width: 100%;
     }
   }
+  
